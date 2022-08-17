@@ -44,4 +44,11 @@
   background-color: white;
   cursor: pointer;
   border-radius: 3px;
+  border:1px solid #458BE2;
+}
+
+.placeholder {
+  color: #458BE2;
+  font-weight: 750;
+  margin-left: 10px;
 }

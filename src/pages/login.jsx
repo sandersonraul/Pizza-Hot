@@ -25,7 +25,7 @@ export default function login() {
       </button>
       <button className={styles.btn} onClick={()=> signIn('google')}>
         <Image src="/img/google.png"  alt='' width='25px' height='25px'/>
-        Sign in with google
+        <p className={styles.placeholder}>Sign in with google</p>
       </button>
 
     </div>
