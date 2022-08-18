@@ -22,7 +22,13 @@
   cursor: pointer;
 }
 
+.item:nth-child(3) {
+  justify-content: flex-end;
+  max-width: 60px !important;
+}
+
 .item:last-child {
+  max-width: 150px;
   justify-content: flex-end;
 }
 
@@ -61,6 +67,27 @@
   margin: 20px;
   font-weight: 500;
   align-self: center;
+}
+
+.btnContainer {
+  justify-content: flex-end;
+  align-items: flex-end;
+  justify-items: flex-end;
+}
+
+.btnLogin {
+  margin-left: 25px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.placeholder {
+  color: #D1401D;
+  font-weight: 700;
 }
 
 .cart {
